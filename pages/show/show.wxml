@@ -1,0 +1,16 @@
+<view>
+{{content}}
+</view>
+<view class="info">
+  <view class="zan">{{zan}}</view>
+  <view class="zan1">点赞数</view>
+  <view class="short">{{short}}</view>
+  <view class="duan">短评</view>
+  <view class="long">{{long}}</view>
+  <view class="chang">长评</view>
+  <view class="com">{{comment}}</view>
+  <view class="all">总评</view>
+  <view class="find">
+     <navigator url="/pages/comment/comment?id={{id}}"class="cha">查看评论</navigator>
+  </view>
+</view>  

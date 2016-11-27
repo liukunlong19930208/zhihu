@@ -1,0 +1,59 @@
+.zan{
+    width:100rpx;
+    height:100rpx;
+    float: left;
+}
+.zan1{
+    position:absolute;
+    bottom:0;
+    left:-5rpx;
+    font-size: 12px;
+    color: red;
+
+}
+.short{
+    width:100rpx;
+    height:100rpx;
+    float: left;
+}
+.duan{
+    position:absolute;
+    left:100rpx;
+    bottom:0;
+    font-size: 12px;
+    color: red;
+}
+.long{
+    width:100rpx;
+    height:100rpx;
+    float: left;
+}
+.chang{
+    position: absolute;
+    left:180rpx;
+    bottom:0;
+    font-size: 12px;
+    color: red;
+}
+.com{
+    width:100rpx;
+    height:100rpx;
+    float: left;
+}
+.all{
+    position: absolute;
+    left:280rpx;
+    bottom:0;
+    font-size: 12px;
+    color: red;
+}
+.info{
+    margin-top:20rpx;
+    margin-left:30rpx;
+    height:80rpx;
+    position: relative;
+}
+.cha{
+    color: red;
+    font-size: 20px;
+}

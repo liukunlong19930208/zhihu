@@ -1,0 +1,26 @@
+<view class="start-image"animation="{{fade}}" style="background-image:url({{startImage}})"></view>
+<view class="zhe"animation="{{ani}}">
+<view class="themes">
+   <view class="t-themes"wx:for="{{themes}}">
+   <navigator url="/pages/list/list?name={{item.name}}&id={{item.id}}">{{item.name}}</navigator>
+   </view>
+</view>
+</view>
+<swiper indicator-dots="{{true}}" class="swiper"
+autoplay="{{true}}" interval="{{3000}}" duration="{{1500}}">
+
+   <block wx:for="{{tops}}">
+    <swiper-item class="s-item" style="background-size:cover;background-image:url({{item.image}})">
+       <view class="item-title"></view>
+    </swiper-item>
+   </block> 
+</swiper>
+<view class="news-list">
+ <block wx:for="{{news}}">  
+     <view class="n-item" bindtap="action"data-title="{{item.title}}"data-id="{{item.id}}">
+        <view class="n-title">{{item.title}}</view>
+        <view class="n-image"style="background-size:cover;background-image:url({{item.image}})"></view>
+     </view>
+  </block>   
+</view>
+<view class="button"bindtap="tapbutton">点击</view>

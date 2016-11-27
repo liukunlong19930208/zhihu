@@ -1,0 +1,13 @@
+<view class="head" style="background-image:url({{data.background}});background-size:cover"></view>
+<view class="desc">{{data.description}}</view>
+<!--<view class="desc">{{data.editors}}</view>-->
+<view class="news-list">
+ <block wx:for="{{data.stories}}">  
+     <view class="n-item" bindtap="action"data-title="{{item.title}}"data-id="{{item.id}}">
+        <view class="n-title">
+           <navigator url="/pages/show/show?id={{item.id}}&title={{item.title}}">{{item.title}}</navigator>
+        </view>
+        <view class="n-image"style="background-size:cover;background-image:url({{item.image}})"></view>
+     </view>
+  </block>   
+</view>

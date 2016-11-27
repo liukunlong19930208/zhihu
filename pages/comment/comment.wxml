@@ -1,0 +1,5 @@
+<view class="list-item" wx:for="{{short}}">
+    <view class="zuo">{{item.author}}</view>
+    <image src="{{item.image}}" mode="aspectFill"class="img"></image>
+    <view class="nei">{{item.content}}</view>
+</view>
